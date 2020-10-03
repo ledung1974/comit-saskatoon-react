@@ -1,0 +1,114 @@
+/* Genaral style setting*/
+html,
+body,
+header,
+main,
+footer {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+html,
+body,
+header,
+main,
+footer,
+aside,
+div {
+  display: block;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px 100px;
+  border: none;
+  position: relative;
+}
+
+/* Header style setting*/
+.div_header {
+  background-color: rgb(2, 32, 36);
+}
+
+.div_header h1 {
+  margin: 0px;
+  padding: 4px 0px;
+  color: white;
+  text-align: left;
+  font-size: 30px;
+}
+
+/* Main style setting*/
+.div_main {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+/*Sidebar*/
+.sidebar {
+  position: relative;
+  float: left;
+  width: 20%;
+  height: 300px;
+  background-color: rgb(181, 236, 238);
+}
+.sidebar p {
+  font-size: 20px;
+  margin: 0px;
+  padding: 4px 0px;
+}
+/*Sidebar menu */
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.sidebar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.sidebar li a.active {
+  background-color: #034a57;
+  color: white;
+}
+
+.sidebar li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/*Main content style setting*/
+.main-content {
+  position: relative;
+  float: right;
+  width: 80%;
+  height: 300px;
+  background-color: rgb(232, 243, 243);
+}
+
+.main-content p {
+  font-size: 20px;
+  margin: 0px;
+  padding: 4px 10px;
+}
+/*Footer style setting*/
+.div_footer {
+  width: 100%;
+  float: left;
+  padding: 0px;
+  position: relative;
+  color: rgb(218, 214, 214);
+  background-color: rgb(52, 52, 54);
+}
+
+.div_footer p {
+  margin: 4px 0px;
+}
