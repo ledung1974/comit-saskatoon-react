@@ -15,7 +15,8 @@ header,
 main,
 footer,
 aside,
-div {
+div
+{
   display: block;
 }
 :root {
@@ -36,6 +37,7 @@ div {
   width: 100%;
   background-color: rgb(2, 32, 36);
   height: 44px;
+  overflow: auto;
 }
 
 .div_header_icon{
@@ -63,7 +65,7 @@ div {
 .div_header p {
   margin: 0px;
   padding: 4px 0px;
-  color: white;
+  color: rgb(247, 241, 189);
   text-align: right;
   font-size: 19px;
 }
@@ -73,6 +75,7 @@ div {
   position: relative;
   width: 100%;
   height: var(--main-height);
+  overflow: auto;
 }
 
 /*Sidebar*/
@@ -132,14 +135,30 @@ div {
 }
 /*Footer style setting*/
 .div_footer {
-  width: 100%;
-  float: left;
+  width:100%;
   padding: 0px;
   position: relative;
   color: rgb(218, 214, 214);
   background-color: rgb(52, 52, 54);
+  text-align: center;
+  overflow: auto;
+}
+
+.div_footer_copyright{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.div_footer_contact{
+  display: inline-block;
+  padding: 0px 10px;
 }
 
 .div_footer p {
   margin: 10px 0px;
+}
+
+.div_footer a {
+  margin: 10px 0px;
+  color: rgb(247, 208, 102);
 }
