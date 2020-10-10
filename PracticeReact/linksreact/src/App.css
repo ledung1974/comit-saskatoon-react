@@ -1,0 +1,95 @@
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2vmin;
+  color: white;
+  margin:0px 20vmin;
+}
+.App-header h1{
+  margin: 0px;
+  padding: 1vmin;
+  font-size: 4vmin;
+}
+
+.App-header h2{
+  margin: 0px;
+  padding: 1vmin;
+  font-size: 3vmin;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.div_menu{
+  margin: 0px 20vmin; 
+  background-color:white;
+}
+.div_menu ul{
+  text-align: left;
+  margin: 0vmin;
+}
+
+.sw_header{
+  font-size:4vmin;
+  text-align: left;
+  margin: 0 20vmin;
+}
+
+.div_main_content{
+  font-size:2.1vmin;
+  text-align: left;
+  padding-top: 1vmin;
+  margin: 0 20vmin;
+}
+
+.div_profile{
+  display:flex;
+  width: 100%;
+  padding: 2vmin 0vmin;
+}
+
+.photo-id{
+  margin: 0vmin;
+  padding-top: 2.5vmin;
+  width:20%;
+} 
+.profile{
+  margin: 0;
+  padding: 0vmin 3vmin;
+}
+.profile h3{
+  font-size: 2.8vmin;
+  margin: 0;
+  padding: 2vmin 0vmin 1vmin 0vmin;
+}
+
+.profile p{
+  margin: 0;
+  padding: 0vmin 1vmin;
+}
